@@ -20,4 +20,15 @@ git commit -a -m"init"
 git config --global user.email "tyaa@ukr.net"
 git config --global user.name "YuriiTrofimenko"
 
-8.
+8.создаем на странице гитхаб пустой репозиторий без файла md,
+а в консоли указываем его адрес
+git remote add origin https://github.com/online123456/notebook.git
+
+9. отправляем изменения из локального репозитория на удаленный
+git push -u origin master
+
+10. чтобы выкачать репозиторий на любой компьютер:
+git clone https://github.com/online123456/notebook.git
+
+11. чтобы получить из удаленного репозитория изменения
+git pull

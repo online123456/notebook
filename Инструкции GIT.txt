@@ -1,0 +1,23 @@
+1. переходим в папку с проектом
+cd "C:\Documents and Settings\Администратор\Мои документы\NetBeansProjects\NoteBookServer"
+
+2. инициализируем пустой репозиторий
+git init
+
+3. создаем файл со списком папок и файлов, которые не будут под версионным контролем программы git
+.gitignore
+
+4. проверим состояние репозитория
+git status
+
+5. ставим все файлы и папки, кроме проигнорированных, под контроль
+git add .
+
+6. делаем первую запись в журнале git
+git commit -a -m"init"
+
+7. в первый раз нужно представиться
+git config --global user.email "tyaa@ukr.net"
+git config --global user.name "YuriiTrofimenko"
+
+8.
